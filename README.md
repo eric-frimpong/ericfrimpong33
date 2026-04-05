@@ -48,6 +48,63 @@ strengths:
 > *Customer-focused IT professional with hands-on experience in deskside and remote support, ticket prioritization, and service-level compliance. Known for thorough documentation, calm problem-solving, and delivering high-quality support to end users.*
 
 ---
+## 📁 Projects
+
+> Each lab has its own dedicated repository with full documentation, step-by-step build notes, PowerShell scripts, and a troubleshooting log. Click any project to explore.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ Lab 1 — Group Policy Management</h3>
+      <p>Built an Active Directory domain from scratch on Windows Server 2022, joined a Windows 10/11 client to the domain, created and linked GPOs, enforced security policies, and verified application with <code>gpresult /r</code>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
+        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GPMC-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+      </p>
+      <p><strong>Key skills:</strong> AD DS · Domain Join · GPO Linking · Security Policies · OU Design · gpupdate / gpresult</p>
+      <a href="https://github.com/eric-frimpong/lab1-group-policy-management"><strong>→ View Repository</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📁 Lab 2 — File Services</h3>
+      <p>Configured a Windows file server with department-level shared folders, applied NTFS and share permissions using AD Security Groups, enforced storage quotas and file screens with FSRM, and automated drive mapping via GPO.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
+        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FSRM-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NTFS_Permissions-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+      </p>
+      <p><strong>Key skills:</strong> Shared Folders · NTFS Permissions · Share vs NTFS · FSRM Quotas · File Screens · Drive Mapping</p>
+      <a href="https://github.com/eric-frimpong/lab2-file-services"><strong>→ View Repository</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🖥️ Lab 3 — Windows Server</h3>
+      <p>Full Windows Server 2022 build from bare install — deployed AD DS, DNS, and DHCP roles, managed users and OUs with PowerShell, enabled remote administration via RDP and Windows Admin Center.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
+        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/>
+        <img src="https://img.shields.io/badge/DNS_%2F_DHCP-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+      </p>
+      <p><strong>Key skills:</strong> Server Roles · AD DS · DNS · DHCP · PowerShell Automation · RDP · Server Manager</p>
+      <a href="https://github.com/eric-frimpong/lab3-windows-server"><strong>→ View Repository</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎫 Lab 4 — ITSM & Ticketing Practice</h3>
+      <p>Hands-on practice with ServiceNow (Personal Developer Instance) and Jira Service Management — covering full incident lifecycle, SLA monitoring, queue triage, priority classification, and structured resolution documentation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white"/>
+      </p>
+      <p><strong>Key skills:</strong> Incident Lifecycle · SLA Management · Queue Triage · Priority Matrix · Ticket Documentation</p>
+      <a href="https://github.com/eric-frimpong/lab4-itsm-ticketing"><strong>→ View Repository</strong></a>
+    </td>
+  </tr>
+</table>
 
 ## 🧪 Home Lab Projects
 
@@ -184,63 +241,6 @@ strengths:
 
 ---
 
-## 📁 Projects
-
-> Each lab has its own dedicated repository with full documentation, step-by-step build notes, PowerShell scripts, and a troubleshooting log. Click any project to explore.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ Lab 1 — Group Policy Management</h3>
-      <p>Built an Active Directory domain from scratch on Windows Server 2022, joined a Windows 10/11 client to the domain, created and linked GPOs, enforced security policies, and verified application with <code>gpresult /r</code>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
-        <img src="https://img.shields.io/badge/GPMC-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-      </p>
-      <p><strong>Key skills:</strong> AD DS · Domain Join · GPO Linking · Security Policies · OU Design · gpupdate / gpresult</p>
-      <a href="https://github.com/eric-frimpong/lab1-group-policy-management"><strong>→ View Repository</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📁 Lab 2 — File Services</h3>
-      <p>Configured a Windows file server with department-level shared folders, applied NTFS and share permissions using AD Security Groups, enforced storage quotas and file screens with FSRM, and automated drive mapping via GPO.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FSRM-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-        <img src="https://img.shields.io/badge/NTFS_Permissions-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-      </p>
-      <p><strong>Key skills:</strong> Shared Folders · NTFS Permissions · Share vs NTFS · FSRM Quotas · File Screens · Drive Mapping</p>
-      <a href="https://github.com/eric-frimpong/lab2-file-services"><strong>→ View Repository</strong></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🖥️ Lab 3 — Windows Server</h3>
-      <p>Full Windows Server 2022 build from bare install — deployed AD DS, DNS, and DHCP roles, managed users and OUs with PowerShell, enabled remote administration via RDP and Windows Admin Center.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white"/>
-        <img src="https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/>
-        <img src="https://img.shields.io/badge/DNS_%2F_DHCP-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-      </p>
-      <p><strong>Key skills:</strong> Server Roles · AD DS · DNS · DHCP · PowerShell Automation · RDP · Server Manager</p>
-      <a href="https://github.com/eric-frimpong/lab3-windows-server"><strong>→ View Repository</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎫 Lab 4 — ITSM & Ticketing Practice</h3>
-      <p>Hands-on practice with ServiceNow (Personal Developer Instance) and Jira Service Management — covering full incident lifecycle, SLA monitoring, queue triage, priority classification, and structured resolution documentation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white"/>
-      </p>
-      <p><strong>Key skills:</strong> Incident Lifecycle · SLA Management · Queue Triage · Priority Matrix · Ticket Documentation</p>
-      <a href="https://github.com/eric-frimpong/lab4-itsm-ticketing"><strong>→ View Repository</strong></a>
-    </td>
-  </tr>
-</table>
 
 ---
 
