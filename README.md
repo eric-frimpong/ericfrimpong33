@@ -1,5 +1,5 @@
-div align="center">
- 
+<div align="center">
+
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
@@ -14,21 +14,21 @@ div align="center">
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
- 
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=IT+Support+Specialist+%7C+Help+Desk+Pro;Troubleshooting+Hardware+%26+Software+Issues;Ticket+Management+%7C+ServiceNow+%7C+Jira;CompTIA+A%2B+Certified+%28In+Progress%29;Always+Learning+%7C+Always+Solving)](https://git.io/typing-svg)
- 
+
 <br/>
- 
+
 [![Email](https://img.shields.io/badge/ericfrimpong33@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ericfrimpong33@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eric-frimpong/)
 [![Phone](https://img.shields.io/badge/(917)_544--9945-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:9175449945)
- 
+
 </div>
- 
+
 ---
- 
+
 ## 👨‍💻 About Me
- 
+
 ```yaml
 name:     "Eric Frimpong"
 role:     "IT Support Specialist"
@@ -44,14 +44,15 @@ strengths:
   - "Clear documentation & knowledge base creation"
   - "User training & onboarding"
 ```
- 
+
 > *Customer-focused IT professional with hands-on experience in deskside and remote support, ticket prioritization, and service-level compliance. Known for thorough documentation, calm problem-solving, and delivering high-quality support to end users.*
- 
+
 ---
+
 ## 📁 Projects
- 
+
 > Each lab has its own dedicated repository with full documentation, step-by-step build notes, PowerShell scripts, and a troubleshooting log. Click any project to explore.
- 
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -104,30 +105,12 @@ strengths:
       <a href="https://github.com/eric-frimpong/lab4-itsm-ticketing"><strong>→ View Repository</strong></a>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🖥️🗂️ Lab 5 — Desktop Support & Asset Management</h3>
-      <p>End-to-end simulation of a real desktop support environment — covering ticket workflows, PC/laptop/iPhone imaging, user onboarding and offboarding, IT asset inventory tracking, hardware/software/network troubleshooting scenarios, and management reporting.</p>
-      <p>
-        <img src="https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Intune_MDM-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoft-office&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
-        <img src="https://img.shields.io/badge/iOS_%2F_iPhone-000000?style=flat-square&logo=apple&logoColor=white"/>
-      </p>
-      <p><strong>Key skills:</strong> Device Imaging · Asset Inventory · Onboarding/Offboarding · Ticket Escalation · Hardware Troubleshooting · Management Reporting · Procurement Logging</p>
-      <a href="https://github.com/eric-frimpong/lab5-desktop-support-asset-management"><strong>→ View Repository</strong></a>
-    </td>
-    <td width="50%" valign="top">
-      <!-- Reserved for Lab 6 -->
-    </td>
-  </tr>
 </table>
- 
+
 ## 🧪 Home Lab Projects
- 
+
 > All labs were self-built using **Windows Server 2022** and **VirtualBox (latest version)** on a personal home lab setup. Each lab replicates enterprise-grade IT environments to build real, hands-on skills that translate directly to professional sysadmin and support roles.
- 
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  PLATFORM    Windows Server 2022 (Evaluation / Licensed)         │
@@ -136,11 +119,11 @@ strengths:
 │  PURPOSE     Simulate enterprise Active Directory environments   │
 └──────────────────────────────────────────────────────────────────┘
 ```
- 
+
 ---
- 
+
 ### 🛡️ Lab 1 — Group Policy Management Lab
- 
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  OS            Windows Server 2022 (DC) + Windows 10/11 Client   │
@@ -149,11 +132,11 @@ strengths:
 │  FOCUS AREA    GPO creation, linking, testing & domain join      │
 └──────────────────────────────────────────────────────────────────┘
 ```
- 
+
 **Objective:** Build a fully functional Active Directory domain environment and use Group Policy to enforce security and configuration settings across domain-joined machines — mirroring how enterprise IT teams manage hundreds of endpoints centrally.
- 
+
 **What I built & practiced:**
- 
+
 | Task | Description |
 |------|-------------|
 | 🏗️ **Domain Controller Setup** | Installed and promoted Windows Server 2022 to a Domain Controller, configured DNS, and stood up a fully operational AD DS environment from scratch |
@@ -163,17 +146,17 @@ strengths:
 | 🖥️ **Desktop & User Restrictions** | Applied GPOs to control desktop wallpaper, disable Control Panel access for standard users, restrict USB usage, and enforce screensaver lock timers |
 | 🧪 **GPO Testing & Verification** | Used `gpupdate /force` and `gpresult /r` on client machines to confirm policies applied correctly; troubleshot GPO inheritance conflicts and filtering issues |
 | 🗂️ **OU Structure Design** | Designed a logical Organizational Unit hierarchy (IT, HR, Finance departments) and applied department-specific policies to each OU |
- 
+
 **Key outcomes:**
 - Gained fluency in the GPMC interface — creating, editing, linking, and disabling GPOs confidently
 - Understood GPO inheritance, precedence (Local → Site → Domain → OU), and how to use "Enforced" and "Block Inheritance" correctly
 - Practiced real enterprise security hardening through policy — not just local settings
 - Documented every GPO applied with purpose, scope, and expected behavior for future reference
- 
+
 ---
- 
+
 ### 📁 Lab 2 — File Services Home Lab
- 
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  OS            Windows Server 2022                               │
@@ -183,11 +166,11 @@ strengths:
 │  FOCUS AREA    Shared folders, NTFS security, quotas & access    │
 └──────────────────────────────────────────────────────────────────┘
 ```
- 
+
 **Objective:** Configure and manage a Windows file server that mirrors enterprise shared storage — with proper NTFS permissions, share permissions, access control by AD group, and storage quota enforcement.
- 
+
 **What I built & practiced:**
- 
+
 | Task | Description |
 |------|-------------|
 | 📂 **Shared Folder Creation** | Created department-level shared folders (IT, HR, Finance) on the server and configured UNC path access (`\\server\share`) for domain-joined clients |
@@ -197,17 +180,17 @@ strengths:
 | 📊 **File Server Resource Manager (FSRM)** | Installed and configured FSRM to set storage quotas per department folder, generate quota usage reports, and receive alerts when thresholds are approached |
 | 🚫 **File Screening** | Created file screens to block unauthorized file types (e.g., `.mp3`, `.exe`) from being saved to shared folders, reducing security and storage risks |
 | 🗺️ **Drive Mapping via GPO** | Used Group Policy to automatically map network drives for domain users at login based on their OU/group membership — eliminating manual mapping for end users |
- 
+
 **Key outcomes:**
 - Understood why enterprises use AD Security Groups for permissions rather than assigning access user-by-user
 - Gained hands-on experience resolving "Access Denied" issues by tracing NTFS vs. share permission conflicts
 - Built a scalable, documented folder permission model ready to present to any IT hiring manager
 - Practiced FSRM quota enforcement — a real-world skill in storage-sensitive enterprise environments
- 
+
 ---
- 
+
 ### 🖥️ Lab 3 — Windows Server Home Lab
- 
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  OS            Windows Server 2022 (Primary + Secondary VMs)     │
@@ -216,11 +199,11 @@ strengths:
 │  FOCUS AREA    Full server build, roles, services & management   │
 └──────────────────────────────────────────────────────────────────┘
 ```
- 
+
 **Objective:** Deploy and manage a complete Windows Server 2022 environment from bare install to a fully operational server with key infrastructure roles — replicating the foundation of any enterprise Windows environment.
- 
+
 **What I built & practiced:**
- 
+
 | Task | Description |
 |------|-------------|
 | ⚙️ **Server Installation & Initial Config** | Performed clean install of Windows Server 2022, configured static IP, renamed the server, set time zone and regional settings, and ran Windows Updates before any role deployment |
@@ -231,97 +214,62 @@ strengths:
 | 💻 **Remote Server Administration** | Enabled and used Remote Desktop (RDP) and Windows Admin Center to manage the server remotely, simulating how real sysadmins manage servers without physical access |
 | 🔧 **PowerShell Automation** | Used PowerShell cmdlets to bulk-create user accounts (`New-ADUser`), query AD objects (`Get-ADUser`, `Get-ADComputer`), and manage services — demonstrating scripting efficiency over GUI |
 | 📋 **Server Manager & Roles Overview** | Navigated Server Manager to monitor role health, review event logs, manage local services, and add/remove features as needed |
- 
+
 **Key outcomes:**
 - Built end-to-end confidence deploying Windows Server 2022 in a virtualized environment
 - Understand how DNS, DHCP, and AD DS work together as the backbone of a Windows network
 - Comfortable with both GUI-based administration and PowerShell for common server tasks
 - Produced full lab documentation including IP scheme, role configuration notes, and troubleshooting steps encountered during build
- 
+
 ---
- 
+
 ### 🎫 Lab 4 — ITSM & Ticketing Practice (ServiceNow / Jira)
- 
+
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  TOOLS USED    ServiceNow Personal Dev Instance │ Jira Free       │
 │  FOCUS AREA    Ticket workflows, SLA tracking, queue management  │
 └──────────────────────────────────────────────────────────────────┘
 ```
- 
+
 **Objective:** Build hands-on familiarity with the enterprise ticketing platforms most commonly used in help desk and IT support environments — before encountering them on the job.
- 
+
 - 🎯 **ServiceNow PDI** — Provisioned a free Personal Developer Instance, navigated the Incident Management module, created custom ticket categories, assignment groups, and practiced the full incident lifecycle from submission to closure
 - 📌 **Jira Service Management** — Configured a Jira project with IT helpdesk queues, defined SLA rules, set up request types, and managed a simulated backlog to mirror real enterprise support operations
 - 📈 **SLA Awareness** — Practiced classifying tickets by priority (P1–P4), tracking ticket age against SLA targets, and identifying when escalation was required to avoid breaches
 - 🗃️ **Queue Triage & Prioritization** — Managed a mixed-priority ticket backlog, making deliberate triage decisions to simulate real-world workload management under time pressure
 - 📝 **Ticket Documentation Standards** — Wrote structured resolution notes and closure summaries in both platforms, reinforcing the documentation habits that reduce repeat tickets and support knowledge base growth
- 
+
 ---
- 
-### 🖥️🗂️ Lab 5 — Desktop Support & Asset Management
- 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  TOOLS USED    ServiceNow │ Intune MDM │ Microsoft 365 │ AD       │
-│  DEVICES       Windows Laptops/Desktops │ iPhone │ Printers       │
-│  FOCUS AREA    Desktop support, imaging, inventory & reporting   │
-└──────────────────────────────────────────────────────────────────┘
-```
- 
-**Objective:** Simulate the full day-to-day responsibilities of a Desktop Support & IT Asset Management Specialist — from handling support tickets and imaging devices to maintaining accurate inventory records and producing management reports.
- 
-**What I built & practiced:**
- 
-| Task | Description |
-|------|-------------|
-| 🎫 **Ticketing & Escalation Workflows** | Logged and managed 12 simulated support tickets (P1–P4) with full lifecycle documentation — intake, triage, troubleshooting, resolution, and closure — including escalation notes and SLA tracking |
-| 💿 **Device Imaging (PC, Laptop, iPhone)** | Built step-by-step imaging checklists for Windows 11 Pro deployments and iPhone MDM enrollment via Microsoft Intune — covering OS setup, software installation, domain join, BitLocker, and Azure AD registration |
-| 👤 **Onboarding & Offboarding** | Created complete onboarding and offboarding templates covering account provisioning, device assignment, M365 licensing, MFA setup, and full device/account decommissioning procedures |
-| 📦 **IT Asset Inventory Management** | Maintained a 25-asset inventory CSV tracking laptops, desktops, monitors, printers, iPhones, docking stations, and software licenses — with fields for assignment, location, warranty, condition, and status |
-| 🔍 **Physical Audit & Reconciliation** | Conducted a simulated quarterly audit of 14 assets, reconciled physical location against database records, and documented the audit log with discrepancy reporting procedures |
-| 🛒 **Procurement Logging** | Tracked hardware and software procurement from request through receipt — including PO numbers, vendor details, costs, warranty dates, and asset ID assignments |
-| 🔧 **Troubleshooting Scenarios** | Documented structured troubleshooting walkthroughs for 12 real-world scenarios across hardware (dead laptop, monitor flicker, battery failure), network (Wi-Fi, VPN, shared drive, P1 outage), and software (Outlook, SharePoint, Adobe, Zoom) |
-| 📊 **Management Reports** | Produced an inventory status report and support activity report — including asset summaries by category, license utilization, items requiring action, SLA compliance rates, and strategic recommendations |
- 
-**Key outcomes:**
-- Demonstrated end-to-end ownership of the IT asset lifecycle — from procurement and imaging to assignment, audit, and disposal
-- Built documentation that mirrors what IT teams actually use in enterprise environments
-- Covered every responsibility listed in real Desktop Support / IT Asset Management job descriptions
-- Produced portfolio-ready reports and checklists an employer can evaluate directly
- 
-<a href="https://github.com/eric-frimpong/lab5-desktop-support-asset-management"><strong>→ View Repository</strong></a>
- 
----
- 
+
 ## 💼 Work Experience
- 
+
 ### GEICO — Customer Service & Operations Support Representative
 **`April 2025 – Present`** | New York, NY
- 
+
 - Managed support tickets from intake through resolution, ensuring SLA compliance and timely user communication
 - Delivered remote technical support for hardware, software, and connectivity issues across distributed teams
 - Documented all incidents, resolutions, and workarounds in a centralized system to improve team-wide service efficiency
 - Prioritized and escalated complex issues appropriately, reducing mean time to resolution on recurring problem types
- 
+
 ---
- 
+
 ### Success Academy — Elementary School Technical Support (IT Context)
 **`July 2024 – January 2025`**
- 
+
 - Provided on-site technical support for laptops, printers, classroom A/V, and network-connected devices across a multi-user school environment
 - Troubleshot hardware, software, and network issues under time pressure to maintain daily operational continuity
 - Supported device onboarding for staff: setup, login provisioning, and basic end-user training
 - Maintained accurate inventory of all school-owned devices, ensuring audit-ready tracking and accountability
- 
+
 ---
- 
+
 ## 🛠️ Tech Stack & Tools
- 
+
 <div align="center">
- 
+
 **Operating Systems & Virtualization**
- 
+
 ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows_10%2F11-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
@@ -329,15 +277,15 @@ strengths:
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=ios&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
- 
+
 **ITSM & Ticketing**
- 
+
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Zendesk](https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white)
- 
+
 **Infrastructure & Server Administration**
- 
+
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Group Policy](https://img.shields.io/badge/Group_Policy_(GPO)-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![DNS](https://img.shields.io/badge/DNS_Server-0078D4?style=flat-square&logo=microsoft&logoColor=white)
@@ -345,39 +293,38 @@ strengths:
 ![FSRM](https://img.shields.io/badge/File_Server_(FSRM)-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoft-office&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure_(Basic)-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
-![Intune MDM](https://img.shields.io/badge/Intune_MDM-0078D4?style=flat-square&logo=microsoft&logoColor=white)
- 
+
 **Networking**
- 
+
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-006400?style=flat-square&logo=cisco&logoColor=white)
 ![VPN](https://img.shields.io/badge/VPN_Support-FF6600?style=flat-square&logo=openvpn&logoColor=white)
 ![VoIP](https://img.shields.io/badge/VoIP_(Basic)-8B0000?style=flat-square&logo=twilio&logoColor=white)
 ![Wi-Fi](https://img.shields.io/badge/Wi--Fi_Troubleshooting-1DA1F2?style=flat-square&logo=wifi&logoColor=white)
- 
+
 </div>
- 
+
 ---
- 
+
 ## 📜 Certifications
- 
+
 | Certification | Issuer | Status |
 |---------------|--------|--------|
 | 🏆 **CompTIA A+** | CompTIA | 🔄 In Progress |
 | ✅ **Google IT Support Certificate** | Google / Coursera | Completed |
- 
+
 ---
- 
+
 ## 🎓 Education
- 
+
 | Degree | Institution | Period |
 |--------|-------------|--------|
 | **B.A.** | Queens College, CUNY | Jan 2022 – May 2024 |
 | **A.A.S. Design** | Queensborough Community College | Aug 2020 – Dec 2021 |
- 
+
 ---
- 
+
 ## 📊 Core Competencies
- 
+
 ```
 Technical Troubleshooting    ████████████████████  Expert
 Desktop & Remote Support     ████████████████████  Expert
@@ -387,25 +334,24 @@ Active Directory & AD DS     ████████████████░
 File Services & NTFS Perms   ████████████████░░░░  Proficient
 DNS / DHCP Administration    ██████████████░░░░░░  Proficient
 Ticket Management (ITSM)     ██████████████████░░  Advanced
-Asset & Inventory Mgmt       ████████████████░░░░  Proficient
 PowerShell (Basics)          ████████████░░░░░░░░  Intermediate
 Azure / Cloud Basics         ██████████░░░░░░░░░░  Foundational
 ```
- 
+
 ---
- 
+
 ## 📈 What I'm Working On
- 
+
 - [ ] 🎯 Passing **CompTIA A+** (Core 1 & Core 2)
 - [ ] 🧪 Expanding home lab to add **pfSense firewall** VM and network segmentation
 - [ ] 📂 Publishing **individual repos** for each lab (GPO, File Services, Server) with full documentation
 - [ ] 🔁 Building a **backup & restore lab** using Windows Server Backup and shadow copies
 - [ ] 🌐 Exploring **Azure Fundamentals (AZ-900)** as next certification target
- 
+
 ---
- 
+
 <div align="center">
- 
+
 ```
 ┌────────────────────────────────────────────────────────┐
 │   Open to: Help Desk │ Tier 1-2 Support │ IT Analyst   │
@@ -413,8 +359,7 @@ Azure / Cloud Basics         ██████████░░░░░░░
 │   Contact: ericfrimpong33@gmail.com │ (917) 544-9945   │
 └────────────────────────────────────────────────────────┘
 ```
- 
+
 *"Every ticket is a problem waiting to be solved — I show up ready to solve it."*
- 
+
 </div>
- 
