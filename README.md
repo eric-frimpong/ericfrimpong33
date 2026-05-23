@@ -229,7 +229,7 @@ Hands-on ticketing practice using **Spiceworks Cloud Help Desk** — simulating 
 - Provided on-site technical support for laptops, printers, classroom A/V, and network-connected devices across a multi-user school environment
 - Troubleshot hardware, software, and network issues under time pressure to maintain daily operational continuity
 - Supported device onboarding for staff: setup, login provisioning, and basic end-user training
-- Maintained accurate inventory of all school-owned devices, ensuring audit-ready tracking and accountability
+- Maintained accurate, audit-ready inventory records for a 120-device K–4 campus fleet using Excel, Google Sheets, and Trello to track asset assignments, device condition, repair status, and loaner rotations for all school-owned hardware.
 
 ---
 
