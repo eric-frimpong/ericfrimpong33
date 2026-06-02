@@ -47,31 +47,25 @@ strengths:
 
 > Each lab has its own dedicated repository with full documentation, step-by-step build notes, PowerShell scripts, and a troubleshooting log. Click any project to explore.
 
-- 🛡️ **Lab 1 — Group Policy Management**
-  Built an Active Directory domain from scratch on Windows Server 2022, joined a Windows 10/11 client to the domain, created and linked GPOs, enforced security policies, and verified application with `gpresult /r`.
-  ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white) ![GPMC](https://img.shields.io/badge/GPMC-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-  **Key skills:** AD DS · Domain Join · GPO Linking · Security Policies · OU Design · gpupdate / gpresult
-  [**→ View Repository**](https://github.com/eric-frimpong/lab1-group-policy-management)
+- 🏢 **Lab 1 — Active Directory**
+  Deployed Active Directory Domain Services on Windows Server 2022, built an OU structure, created users and security groups, joined a Windows 10/11 client to the domain, and managed accounts via both ADUC and PowerShell.
+  ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+  **Key skills:** AD DS · Domain Controller Setup · OU Design · User & Group Management · Domain Join · PowerShell Automation
+  [**→ View Repository**](https://github.com/eric-frimpong/lab1-active-directory)
 
-- 📁 **Lab 2 — File Services**
-  Configured a Windows file server with department-level shared folders, applied NTFS and share permissions using AD Security Groups, enforced storage quotas and file screens with FSRM, and automated drive mapping via GPO.
-  ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white) ![FSRM](https://img.shields.io/badge/FSRM-0078D4?style=flat-square&logo=microsoft&logoColor=white) ![NTFS Permissions](https://img.shields.io/badge/NTFS_Permissions-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-  **Key skills:** Shared Folders · NTFS Permissions · Share vs NTFS · FSRM Quotas · File Screens · Drive Mapping
-  [**→ View Repository**](https://github.com/eric-frimpong/lab2-file-services)
-
-- 🖥️ **Lab 3 — Windows Server**
+- 🖥️ **Lab 2 — Windows Server**
   Full Windows Server 2022 build from bare install — deployed AD DS, DNS, and DHCP roles, managed users and OUs with PowerShell, enabled remote administration via RDP and Windows Admin Center.
   ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![DNS / DHCP](https://img.shields.io/badge/DNS_%2F_DHCP-0078D4?style=flat-square&logo=microsoft&logoColor=white)
   **Key skills:** Server Roles · AD DS · DNS · DHCP · PowerShell Automation · RDP · Server Manager
   [**→ View Repository**](https://github.com/eric-frimpong/lab3-windows-server)
 
-- 🎫 **Lab 4 — ITSM & Ticketing Practice**
+- 🎫 **Lab 3 — ITSM & Ticketing Practice**
   Hands-on practice with ServiceNow (Personal Developer Instance) and Jira Service Management — covering full incident lifecycle, SLA monitoring, queue triage, priority classification, and structured resolution documentation.
   ![ServiceNow](https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Zendesk](https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white)
   **Key skills:** Incident Lifecycle · SLA Management · Queue Triage · Priority Matrix · Ticket Documentation
   [**→ View Repository**](https://github.com/eric-frimpong/lab4-itsm-ticketing)
 
-- 🌐 **Lab 5 — Cisco Packet Tracer: Inter-Network Routing**
+- 🌐 **Lab 4 — Cisco Packet Tracer: Inter-Network Routing**
   Built a two-LAN network topology in Cisco Packet Tracer, configured a Cisco 2811 router to connect two separate IP subnets (192.168.1.x and 192.168.2.x), set default gateways on all endpoints, and verified cross-network connectivity end-to-end using ping.
   ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white) ![Networking](https://img.shields.io/badge/TCP%2FIP-006400?style=flat-square&logo=cisco&logoColor=white) ![Router Config](https://img.shields.io/badge/IOS_CLI-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
   **Key skills:** Inter-Network Routing · Default Gateway · Cisco IOS CLI · Subnetting · Switch/Router Config · Ping Verification
@@ -94,74 +88,40 @@ strengths:
 
 ---
 
-### 🛡️ Lab 1 — Group Policy Management Lab
+### 🏢 Lab 1 — Active Directory
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  OS            Windows Server 2022 (DC) + Windows 10/11 Client   │
 │  HYPERVISOR    Oracle VirtualBox (Latest)                        │
-│  TOOLS USED    GPMC │ Group Policy Editor │ Active Directory      │
-│  FOCUS AREA    GPO creation, linking, testing & domain join      │
+│  TOOLS USED    AD DS │ ADUC │ PowerShell │ DNS                   │
+│  FOCUS AREA    Domain setup, OU design, users, groups & policies │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-**Objective:** Build a fully functional Active Directory domain environment and use Group Policy to enforce security and configuration settings across domain-joined machines — mirroring how enterprise IT teams manage hundreds of endpoints centrally.
+**Objective:** Deploy a fully operational Active Directory environment from scratch on Windows Server 2022 — building the domain, designing the OU structure, managing users and groups, and joining client machines to the domain, mirroring a real enterprise AD setup.
 
 **What I built & practiced:**
 
 | Task | Description |
 |---|---|
-| 🏗️ **Domain Controller Setup** | Installed and promoted Windows Server 2022 to a Domain Controller, configured DNS, and stood up a fully operational AD DS environment from scratch |
-| 💻 **Computer Domain Join** | Joined a Windows 10/11 client VM to the domain, verified DNS resolution, authenticated with domain credentials, and confirmed the machine appeared in Active Directory Computers |
-| 📋 **GPO Creation & Linking** | Created multiple Group Policy Objects using the Group Policy Management Console (GPMC), linked them to specific Organizational Units (OUs), and validated inheritance and precedence |
-| 🔐 **Security Policies Applied** | Enforced password complexity requirements, account lockout thresholds, minimum password length, and login banner messages via GPO — matching real enterprise security baselines |
-| 🖥️ **Desktop & User Restrictions** | Applied GPOs to control desktop wallpaper, disable Control Panel access for standard users, restrict USB usage, and enforce screensaver lock timers |
-| 🧪 **GPO Testing & Verification** | Used `gpupdate /force` and `gpresult /r` on client machines to confirm policies applied correctly; troubleshot GPO inheritance conflicts and filtering issues |
-| 🗂️ **OU Structure Design** | Designed a logical Organizational Unit hierarchy (IT, HR, Finance departments) and applied department-specific policies to each OU |
+| 🏗️ **Domain Controller Deployment** | Installed AD DS role, promoted Windows Server 2022 to a Domain Controller, configured the forest and domain functional levels, and verified DNS integration |
+| 🗂️ **OU Structure Design** | Designed a logical Organizational Unit hierarchy (IT, HR, Finance, Management) to mirror department-level enterprise structure and enable targeted policy application |
+| 👤 **User Account Management** | Created individual user accounts in Active Directory Users & Computers (ADUC), set account properties, configured password policies, and managed account enable/disable states |
+| 👥 **Security Group Management** | Created and managed Security Groups (e.g., `IT-Staff`, `HR-Managers`), assigned users to groups, and used groups to control access to resources rather than assigning permissions per user |
+| 💻 **Domain Join & Client Config** | Joined a Windows 10/11 client VM to the domain, verified DNS resolution, authenticated using domain credentials, and confirmed computer object appeared in Active Directory Computers |
+| 🔧 **PowerShell AD Automation** | Used `New-ADUser`, `Get-ADUser`, `Set-ADUser`, `Add-ADGroupMember`, and `Get-ADComputer` to manage accounts and query the directory from the command line |
+| 🔐 **Account & Password Policies** | Configured domain-level password complexity, minimum length, lockout thresholds, and expiration policies to match enterprise security baselines |
 
 **Key outcomes:**
-- Gained fluency in the GPMC interface — creating, editing, linking, and disabling GPOs confidently
-- Understood GPO inheritance, precedence (Local → Site → Domain → OU), and how to use "Enforced" and "Block Inheritance" correctly
-- Practiced real enterprise security hardening through policy — not just local settings
-- Documented every GPO applied with purpose, scope, and expected behavior for future reference
+- Built end-to-end confidence standing up an AD DS environment from a bare Windows Server install
+- Understood the relationship between DNS, domain controllers, and client authentication in a Windows domain
+- Practiced both GUI (ADUC) and PowerShell workflows for user and group management — the two methods used side by side in real IT environments
+- Produced a documented OU and group structure ready to scale with GPO application in follow-on labs
 
 ---
 
-### 📁 Lab 2 — File Services Home Lab
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  OS            Windows Server 2022                               │
-│  HYPERVISOR    Oracle VirtualBox (Latest)                        │
-│  TOOLS USED    File Server Resource Manager │ NTFS Permissions   │
-│                Share Permissions │ Active Directory Users        │
-│  FOCUS AREA    Shared folders, NTFS security, quotas & access    │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-**Objective:** Configure and manage a Windows file server that mirrors enterprise shared storage — with proper NTFS permissions, share permissions, access control by AD group, and storage quota enforcement.
-
-**What I built & practiced:**
-
-| Task | Description |
-|---|---|
-| 📂 **Shared Folder Creation** | Created department-level shared folders (IT, HR, Finance) on the server and configured UNC path access (`\\server\share`) for domain-joined clients |
-| 🔒 **NTFS Permission Configuration** | Applied granular NTFS permissions (Full Control, Modify, Read & Execute, Read, Write) to folders using security groups rather than individual users — following least-privilege principles |
-| 🤝 **Share Permissions vs NTFS** | Understood and tested the interaction between Share permissions and NTFS permissions, confirming that the most restrictive permission always wins |
-| 👥 **AD Group-Based Access Control** | Created Security Groups in Active Directory (e.g., `IT-Staff`, `HR-Managers`) and assigned folder permissions to groups — allowing scalable access management without touching individual accounts |
-| 📊 **File Server Resource Manager (FSRM)** | Installed and configured FSRM to set storage quotas per department folder, generate quota usage reports, and receive alerts when thresholds are approached |
-| 🚫 **File Screening** | Created file screens to block unauthorized file types (e.g., `.mp3`, `.exe`) from being saved to shared folders, reducing security and storage risks |
-| 🗺️ **Drive Mapping via GPO** | Used Group Policy to automatically map network drives for domain users at login based on their OU/group membership — eliminating manual mapping for end users |
-
-**Key outcomes:**
-- Understood why enterprises use AD Security Groups for permissions rather than assigning access user-by-user
-- Gained hands-on experience resolving "Access Denied" issues by tracing NTFS vs. share permission conflicts
-- Built a scalable, documented folder permission model ready to present to any IT hiring manager
-- Practiced FSRM quota enforcement — a real-world skill in storage-sensitive enterprise environments
-
----
-
-### 🎫 Lab 4 — ITSM & Ticketing Practice (ServiceNow / Jira)
+### 🎫 Lab 2 — ITSM & Ticketing Practice (ServiceNow / Jira) & Ticketing Practice (ServiceNow / Jira)
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -180,7 +140,7 @@ strengths:
 
 ---
 
-### 🌐 Lab 5 — Cisco Packet Tracer: Inter-Network Routing
+### 🌐 Lab 3 — Cisco Packet Tracer: Inter-Network Routing
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
