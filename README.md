@@ -53,19 +53,13 @@ strengths:
   **Key skills:** AD DS · Domain Controller Setup · OU Design · User & Group Management · Domain Join · PowerShell Automation
   [**→ View Repository**](https://github.com/eric-frimpong/lab1-active-directory)
 
-- 🖥️ **Lab 2 — Windows Server**
-  Full Windows Server 2022 build from bare install — deployed AD DS, DNS, and DHCP roles, managed users and OUs with PowerShell, enabled remote administration via RDP and Windows Admin Center.
-  ![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D6?style=flat-square&logo=windows&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) ![DNS / DHCP](https://img.shields.io/badge/DNS_%2F_DHCP-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-  **Key skills:** Server Roles · AD DS · DNS · DHCP · PowerShell Automation · RDP · Server Manager
-  [**→ View Repository**](https://github.com/eric-frimpong/lab3-windows-server)
-
-- 🎫 **Lab 3 — ITSM & Ticketing Practice**
+- 🎫 **Lab 2 — ITSM & Ticketing Practice**
   Hands-on practice with ServiceNow (Personal Developer Instance) and Jira Service Management — covering full incident lifecycle, SLA monitoring, queue triage, priority classification, and structured resolution documentation.
   ![ServiceNow](https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Zendesk](https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white)
   **Key skills:** Incident Lifecycle · SLA Management · Queue Triage · Priority Matrix · Ticket Documentation
   [**→ View Repository**](https://github.com/eric-frimpong/lab4-itsm-ticketing)
 
-- 🌐 **Lab 4 — Cisco Packet Tracer: Inter-Network Routing**
+- 🌐 **Lab 3 — Cisco Packet Tracer: Inter-Network Routing**
   Built a two-LAN network topology in Cisco Packet Tracer, configured a Cisco 2811 router to connect two separate IP subnets (192.168.1.x and 192.168.2.x), set default gateways on all endpoints, and verified cross-network connectivity end-to-end using ping.
   ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=flat-square&logo=cisco&logoColor=white) ![Networking](https://img.shields.io/badge/TCP%2FIP-006400?style=flat-square&logo=cisco&logoColor=white) ![Router Config](https://img.shields.io/badge/IOS_CLI-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
   **Key skills:** Inter-Network Routing · Default Gateway · Cisco IOS CLI · Subnetting · Switch/Router Config · Ping Verification
