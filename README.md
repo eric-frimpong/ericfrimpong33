@@ -57,7 +57,7 @@ strengths:
   Hands-on practice with ServiceNow (Personal Developer Instance) and Jira Service Management — covering full incident lifecycle, SLA monitoring, queue triage, priority classification, and structured resolution documentation.
   ![ServiceNow](https://img.shields.io/badge/ServiceNow-00C7B7?style=flat-square&logo=servicenow&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Zendesk](https://img.shields.io/badge/Zendesk-03363D?style=flat-square&logo=zendesk&logoColor=white)
   **Key skills:** Incident Lifecycle · SLA Management · Queue Triage · Priority Matrix · Ticket Documentation
-  [**→ View Repository**](https://github.com/eric-frimpong/lab4-itsm-ticketing)
+  [**→ View Repository**](https://github.com/eric-frimpong/Ticketing-Lab)
 
 - 🌐 **Lab 3 — Cisco Packet Tracer: Inter-Network Routing**
   Built a two-LAN network topology in Cisco Packet Tracer, configured a Cisco 2811 router to connect two separate IP subnets (192.168.1.x and 192.168.2.x), set default gateways on all endpoints, and verified cross-network connectivity end-to-end using ping.
